@@ -16,7 +16,7 @@ window.webtor.push({
             console.log('Torrent error!')
         }
     },
-    poster: 'https://via.placeholder.com/150/0000FF/808080?Text=Sintel',
+    poster: 'https://en.wikipedia.org/wiki/File:Jolly_Roger.svg',
     subtitles: [
         {
             srclang: 'en',

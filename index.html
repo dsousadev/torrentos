@@ -6,6 +6,13 @@
         <div id="player" class="webtor" />
         <script src="site.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@webtor/player-sdk-js/dist/index.min.js" charset="utf-8"></script>
+        Paste in a video's magnet link: <input type="text" id="magnet"><br><br>
+        <input type="button" onclick="myFunction()" value="Submit">
+        <script>
+            function myFunction() {
+              window.open("https://dsousadev.github.io/torrentos/?" + document.getElementById("magnet").value)
+            }
+        </script>
     </head>
     <body>
     
